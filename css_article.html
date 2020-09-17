@@ -7,7 +7,7 @@
       content="width=
     , initial-scale=1.0"
     />
-    <title>HTML 5</title>
+    <title>CSS 3</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -17,7 +17,6 @@
       <a href="./index.html">HTML</a>
       <a href="./css_article.html">CSS</a>
     </div>
-
     <!-- Menú Fin -->
 
     <!-- Header inicio -->
@@ -27,52 +26,171 @@
         <h2 class="subTitulo">Bogotá Institute of Technology</h2>
       </div>
     </header>
-
     <!-- Header fin -->
+
     <!-- Main inicio -->
     <main>
+      <!-- Sección #1 -->
       <section class="acercaDe">
+        <!-- Contenedor #1 -->
         <div class="contenedor">
-          <h2 class="tituloDesarrollo">¿Cómo se desarrolla en el FrontEnd?</h2>
-          <h3 class="slogan">Semana 1 de 14</h3>
+          <h2 class="tituloDesarrollo">¿Qué es CSS?</h2>
+          <br />
           <p class="parrafos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-            architecto.
+            CSS es un mecanismo complementario del lenguaje HTML que permite
+            indicarle al navegador el estilo que debe darle a los distintos
+            elementos al desplegar la información de un sitio web.
+          </p>
+
+          <p class="parrafos">
+            Mientras que los comandos HTML le indican al navegador que ciertas
+            partes del texto son títulos, subtítulos, enlaces o párrafos, CSS es
+            lo que le dice, entre otras cosas, qué fuente, tamaño, color o
+            alineación debe tener un elemento de la página.
+          </p>
+
+          <p class="parrafos">
+            Hay una gran diferencia en la manera como se visualiza un sitio con
+            comandos CSS y uno que no los tiene. De hecho, puedes comprobarlo tú
+            mismo. Abre cualquier sitio web y selecciona “desactivar estilos >
+            Hojas de estilo enlazadas” en el menú de la barra de herramientas, y
+            verás lo aburrido que se vuelve.
+          </p>
+
+          <p class="parrafos descripcion">Ver Curso Introductorio en YouTube</p>
+          <p class="parrafos descripcion">
+            <iframe
+              class="videos"
+              src="https://www.youtube.com/embed/OWKXEJN67FE"
+              frameborder="0"
+            ></iframe>
+          </p>
+        </div>
+
+        <!-- Contenedor #2 -->
+        <div class="contenedor">
+          <h2 class="tituloDesarrollo">¿Qué significa CSS?</h2>
+          <br />
+          <p class="parrafos">
+            CSS significa Cascade Style Sheets, que se traduce al español como
+            “Hojas de Estilo en Cascada”. Las hojas de estilo son un recurso que
+            existe desde que se usaba el antecesor del HTML: el SGLM, un
+            lenguaje para crear documentos electrónicos que nació a inicios de
+            los 70´s.
+          </p>
+
+          <p class="parrafos">
+            Con el auge del internet, el HTML y la diversificación de
+            navegadores (que no son más que programas que permiten interpretar y
+            mostrar la información en los sitios web), se hizo necesario
+            estandarizar los comandos, y de un esfuerzo de la World Wide Web
+            Consortium (W3C) surgió el lenguaje CSS actual.
+          </p>
+        </div>
+
+        <!-- Contenedor #3 -->
+        <div class="contenedor">
+          <h2 class="tituloDesarrollo">¿Para qué sirven los estilos CSS?</h2>
+          <br />
+          <p class="parrafos">
+            Los estilos CSS son algo que puedes agregar de manera individual a
+            cada elemento de tu plantilla HTML, pero esto resulta engorroso e
+            impráctico. Cuando enlazas una página HTML a una hoja de estilos
+            CSS, ésta tiene una serie de comandos que modifican a todos los
+            elementos que concuerden con determinado criterio.
           </p>
           <p class="parrafos">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maiores
-            doloremque molestias ad deserunt debitis soluta ipsam iusto
-            incidunt. Dolore!
+            Dicho de otro modo, es más fácil y rápido enlazar tu plantilla HTML
+            a un archivo CSS para que el navegador entienda que debe desplegar
+            todos los Títulos H2 en azul, antes que integrar un comando de
+            estilo independiente para cada H2 que incluyas en tus páginas.
           </p>
-          <p class="parrafos">Acceder al curso introductorio en YouTube</p>
-          <a
-            class="boton"
-            href="https://www.youtube.com/watch?v=RTmVVLTuq4g&list=PLpD_vYWjZt12INWLq8k3at4OQiT_qg8lf
-"
-            target="_blank"
-            >Acceder</a
-          >
+          <p class="parrafos">
+            Otra de las ventajas del CSS es que puedes usar una misma plantilla
+            para darle formato a varios sitios web, y si necesitas hacer cambios
+            basta con modificar el elemento en la plantilla y actualizar los
+            sitios vinculados.
+          </p>
+          <p class="parrafos">
+            Pero el CSS no se limita a darle formato a un texto. En conjunto con
+            Javascript, sus aplicaciones actuales en un sitio web son
+            muchísimas. Por ejemplo, también sirve para ordenarle al navegador
+            que cambie el color de un hipervínculo para que el usuario sepa que
+            ya lo visitó, diseñar menús y listas desplegables o incluso crear
+            elementos interactivos. Para que te des una idea de lo complejas que
+            pueden ser las creaciones CSS, échale un ojo a estas diez
+            creatividades.
+          </p>
+        </div>
+
+        <!-- Contenedor #4 -->
+        <div class="contenedor">
+          <h2 class="tituloDesarrollo">¿Cuándo usar CSS?</h2>
+          <br />
+          <p class="parrafos">
+            Aprender a crear hojas de estilo CSS será fundamental para poder
+            desarrollar una página web desde cero, o para personalizar cualquier
+            detalle de diseño de una web con la que trabajes.
+          </p>
+          <p class="parrafos">
+            Muchos sitios como WordPress te ofrecen la posibilidad de
+            seleccionar entre plantillas de estilo prediseñadas y construir una
+            página web simplemente “arrastrando y soltando” sin necesidad de
+            meterte con el código, pero para cualquier sitio que necesite más
+            personalización, es necesario recurrir a la programación directa en
+            HTML, y, por consiguiente, aplicar hojas de estilo en cascada.
+          </p>
+
+          <!-- Contenedor #5 -->
+        </div>
+        <div class="contenedor">
+          <h2 class="tituloDesarrollo">
+            Componentes de una hoja de estilo en CSS
+          </h2>
+          <br />
+          <p class="parrafos">
+            Una hoja de estilo se compone de un listado de reglas o comandos que
+            constan de un selector y una declaración:
+          </p>
+
+          <ul class="parrafos">
+            <li>
+              Selector: Es el elemento sobre el cuál va a aplicarse cierto
+              estilo, puede ser un H1, H2, un párrafo, un formulario, etc.
+            </li>
+            <li>
+              Declaración: Se compone de una propiedad (color, ancho, fuente,
+              etc) y un valor (rojo, verdana, alineación izquierda, etc).
+            </li>
+          </ul>
+          <p class="parrafos">Si tenemos, por ejemplo:</p>
+          <p class="parrafos codigo">
+            h1 {<br />
+            color: red; <br />
+            text–align: center;<br />
+            } <br />
+          </p>
+          <p class="parrafos">
+            Le estamos indicando al navegador que despliegue el Título 1 del
+            documento en color rojo y centrado.
+          </p>
+          <p class="parrafos">Si tenemos:</p>
+          <p class="parrafos codigo">
+            p {<br />
+            font-size: 60px;<br />
+            color: black;<br />
+            text-align: left <br />
+            }<br />
+          </p>
+          <p class="parrafos">
+            Le estamos diciendo que despliegue los párrafos con un tamaño de
+            fuente de 60px, en color negro y con alineación a la izquierda.
+          </p>
         </div>
       </section>
-      <section class="galeria">
-        <div class="sesgoArriba"></div>
-        <div class="imagenes">
-          <img src="img/Herramienta1.png" alt="" />
-        </div>
-        <div class="imagenes">
-          <img src="img/Herramienta2.png" alt="" />
-        </div>
-        <div class="imagenes">
-          <img src="img/LogoBIT.png" alt="" />
-        </div>
-        <div class="imagenes">
-          <img src="img/Herramienta3.png" alt="" />
-        </div>
-        <div class="imagenes">
-          <img src="img/Herramienta4.png" alt="" />
-        </div>
-        <div class="sesgoAbajo"></div>
-      </section>
+
+      <hr />
+      <!-- Section #2 -->
       <section>
         <div class="contenedor">
           <h2 class="tituloDesarrollo">Primeros Pasos</h2>
@@ -89,7 +207,7 @@
               <p>Aprender CSS.</p>
             </div>
             <div class="card">
-              <img src="img/Herramienta3.png" alt="" />
+              <img class="imagenesEjemplo" src="img/Herramienta3.png" alt="" />
               <h4>Paso 3</h4>
               <p>Aprender JavaScript.</p>
             </div>
@@ -98,6 +216,7 @@
       </section>
     </main>
     <!-- Main fin -->
+
     <!-- Footer inicio -->
     <footer>
       <div class="contenedor">

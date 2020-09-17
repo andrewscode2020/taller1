@@ -83,6 +83,10 @@ header .subTitulo {
   line-height: 2;
 }
 
+.codigo{
+  color: rgb(173, 105, 2);
+}
+
 .descripcion{
   text-align: center;
 }
