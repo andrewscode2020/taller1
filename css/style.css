@@ -39,9 +39,6 @@ header .subTitulo {
   margin-bottom: 30px;
 }
 
-/* header .boton {
-} */
-
 .acercaDe .boton {
   display: inline-block;
   padding: 10px;
@@ -83,11 +80,11 @@ header .subTitulo {
   line-height: 2;
 }
 
-.codigo{
-  color: rgb(173, 105, 2);
+.codigo {
+  color: darkblue;
 }
 
-.descripcion{
+.descripcion {
   text-align: center;
 }
 
@@ -105,10 +102,6 @@ header .subTitulo {
   height: 300px;
   overflow: hidden;
   position: relative;
-}
-
-.imagenesEjemplo{
-  
 }
 
 .videos {
@@ -170,9 +163,6 @@ header .subTitulo {
 footer {
   background-color: rgb(83, 82, 82);
 }
-
-/* .footer {
-} */
 
 /* Media Queries (responsive design) */
 
